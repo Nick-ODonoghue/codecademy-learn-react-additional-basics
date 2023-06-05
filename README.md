@@ -1,6 +1,6 @@
 <h1 align="center">My Notes - Codecademy Learn React: Additional Basic | NickOD.xyz</h1>
 
-![Certificate of Completion]()
+![Certificate of Completion](./assets/images/Codecademy%20-%20Learn%20React%20Additional%20Basics%20Course.jpg)
 
 <br>
 
