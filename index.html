@@ -101,27 +101,109 @@
         <li>In React, a number style value is automatically interpreted with px.</li>
         <li>Styles can be separated and stored into CSS module files. The styles can be imported and used by applying
           className attributes to the relevant elements. </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+      </ul>
+      <p>
+        <a href="https://www.codecademy.com/learn/learn-react-additional-basics/modules/react-styles/cheatsheet">Codecademy
+          -
+          React Styles Cheatsheet</a>
+      </p>
+    </section>
+
+    <h2>React Forms</h2>
+
+    <section>
+      <h3>Input onChange</h3>
+      <ul>
+        <li>In React, the state of a form can be managed by the component itself, unlike in regular HTML forms where the
+          browser handles the form state.</li>
+        <li>Updates to the form state in React are triggered by the onChange event.</li>
+        <li>The onChange event fires when the user interacts with an input field, such as entering or deleting
+          characters.</li>
+        <li>When the onChange event is triggered, the component can update its state to immediately reflect the changes
+          made by the user.</li>
+        <li>By updating the component state, React can automatically update the view and provide a responsive user
+          interface.</li>
       </ul>
     </section>
 
     <section>
-      <h3></h3>
+      <h3>Write an Input Event Handler</h3>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>An event handler function is used to handle user interactions with an 'input' element in React.</li>
+        <li>The event handler function is called whenever a user enters or deletes any character inside the 'input'
+          element.</li>
+        <li>The event handler function listens for change events that occur in the 'input' element.</li>
+        <img src="./assets/images/InputEventHandler.jpg" alt="input event handler example">
       </ul>
+    </section>
+
+    <section>
+      <h3>Set the Input's Initial State</h3>
+      <ul>
+        <img src="./assets/images/inputsInitialState.jpg" alt="settings an inputs initial state">
+        <li>The handleUserInput() function updates the userInput state with the text entered or deleted in the 'input'
+          field.</li>
+        <li>The state hook useState is used to manage the userInput state.</li>
+        <li>The initial value of userInput should be set using the state hook's initial state value.</li>
+        <li>In this case, the initial text in the 'input' should be an empty string to represent that no text has been
+          entered yet.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Update an Inputs Value</h3>
+      <ul>
+        <li>The value prop of an input element in React is used to control and sync the input's value with the
+          component's state.</li>
+        <img src="./assets/images/updateInputValue.jpg" alt="updating an inputs value">
+        <li>Setting the value prop ensures that the input's value reflects the component's state, providing consistency
+          and avoiding potential bugs.</li>
+        <li>By using the onChange event, we can update the component's state with the new value entered in the input
+          field.</li>
+        <li>When the component's state is updated, the input's value prop is set to the new value, and the component
+          re-renders.</li>
+        <li>This approach makes the component's state the "source of truth" for the input's value, ensuring that form
+          data remains consistent and can be easily managed and submitted.</li>
+        <li>It is important to apply this pattern for inputs to keep them in sync with the component's state and provide
+          a reliable and controlled user input experience.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Controlled versus Uncontrolled</h3>
+      <ul>
+        <li>An uncontrolled component in React maintains its own internal state.</li>
+        <img src="./assets/images/uncontrolledComponent.jpg" alt="uncontrolled component">
+        <li>An uncontrolled component, such as a regular 'input' element, keeps track of its own data (e.g., the text
+          entered in an input field) internally.</li>
+        <li>On the other hand, a controlled component in React does not maintain any internal state.</li>
+        <li>Controlled components rely on external sources, usually through props, to control and access their data.
+        </li>
+        <li>By providing the value attribute to an 'input' element in React, it becomes controlled, meaning it no longer
+          uses its internal storage to track its data.</li>
+        <li>Instead, the value of the controlled component is controlled and accessed through props, usually managed by
+          the component's state.</li>
+        <li>Using controlled components is a common and recommended approach in React for managing form inputs and
+          keeping the component's state as the "source of truth" for the input's value.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Review: React Forms</h3>
+      <ul>
+        <li>The state of a React form is managed by the component, and updates are triggered by the onChange event.</li>
+        <li>The onChange event uses an event handler to capture changes and determine what actions to take.</li>
+        <li>A React form uses the State hook to store the value of the input field in the component’s state. The state
+          can then be updated with the state setter. </li>
+        <li>React components can be controlled or uncontrolled. Most React forms are controlled, as they control the
+          input’s value with the state.</li>
+      </ul>
+      <p>
+        <a
+          href="https://www.codecademy.com/learn/learn-react-additional-basics/modules/learn-react-additional-react-basics/cheatsheet">Codecademy
+          -
+          React Forms Cheatsheet</a>
+      </p>
     </section>
 
   </main>

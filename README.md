@@ -14,7 +14,7 @@ This is a collection of all my notes taken whilst going through the Codecademy c
 
 ## Link to Live Site of Notes
 
-[Notes in HTML with Screenshots]()
+[Notes in HTML with Screenshots](https://nick-odonoghue.github.io/codecademy-learn-react-additional-basics/)
 
 <br>
 
@@ -27,7 +27,7 @@ This is a collection of all my notes taken whilst going through the Codecademy c
 
 ## Useful Resources
 
-[]()
+[React Docs - Controlled & Uncontrolled Components](https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components)
 
 <br>
 
